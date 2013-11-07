@@ -1,0 +1,70 @@
+﻿body {
+    background-image: url("~/Content/Images/AutumnLeaves.png");
+    background-color: #FFEBCA;
+    margin-top: 60px;
+}
+
+img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.thumbnail {    
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 2px 3px 5px rgba(128, 128, 128, .3);
+    /*box-shadow: 10px, 10px, 5px, #888888;*/
+    /*border: 1px solid black;*/
+}
+
+h3.thumbnailTitle {
+    margin-top: -25px;
+}
+
+.thumbnail > img {
+display: block;
+max-width: 100%;
+margin-right: auto;
+margin-left: auto;
+}
+
+/*This is not right, I need to center the txt properly*/
+.thumbnailTxt > h3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+
+}
+
+.navbar-inner {
+}
+
+/*.masthead {
+    padding: 70px 0 80px;
+    margin-bottom: 0;
+    color: #fff;
+}*/
+
+.jumbotron {
+    position: relative;
+    padding: 40px 0;
+    color: #fff;
+    text-align: center;
+    /*text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);*/
+    background-image: url('~/Content/Images/AutumnLeaves.png');
+    background: #020031;
+    /*background: -moz-linear-gradient(45deg, #020031 0%, #6d3353 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#020031), color-stop(100%,#6d3353));
+    background: -webkit-linear-gradient(45deg, #020031 0%,#6d3353 100%);
+    background: -o-linear-gradient(45deg, #020031 0%,#6d3353 100%);
+    background: -ms-linear-gradient(45deg, #020031 0%,#6d3353 100%);
+    background: linear-gradient(45deg, #020031 0%,#6d3353 100%);*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020031', endColorstr='#6d3353',GradientType=1 );
+    -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+    -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);*/
+}
