@@ -130,12 +130,13 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="Content\BackgroundTemplate.png" />
     <Content Include="Content\bootstrap-responsive.css" />
     <Content Include="Content\bootstrap-responsive.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\custom.css" />
-    <Content Include="Content\Images\AutumnLeaves.png" />
+    <Content Include="Content\AutumnLeaves.png" />
     <Content Include="Content\Images\ck.jpg" />
     <Content Include="Content\Images\glyphicons-halflings-white.png" />
     <Content Include="Content\Images\glyphicons-halflings.png" />
@@ -143,6 +144,8 @@
     <Content Include="Content\Images\thumbnail_green.png" />
     <Content Include="Content\Images\thumbnail_red.png" />
     <Content Include="Content\site.css" />
+    <Content Include="Content\TreeLandscape.png" />
+    <Content Include="Content\TreeLandscape_Trim.png" />
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap-carousel.js" />
