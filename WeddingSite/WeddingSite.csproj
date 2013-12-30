@@ -118,9 +118,13 @@
   <ItemGroup>
     <Compile Include="App_Start\BootstrapBundleConfig.cs" />
     <Compile Include="Controllers\AboutUsController.cs" />
+    <Compile Include="Controllers\CeremonyController.cs" />
     <Compile Include="Controllers\EngagementController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProposalController.cs" />
     <Compile Include="Controllers\RegistryController.cs" />
+    <Compile Include="Controllers\RSVPController.cs" />
+    <Compile Include="Controllers\VendorsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -131,21 +135,28 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Content\BackgroundTemplate.png" />
+    <Content Include="Content\BackgroundTemplate_rotated.png" />
     <Content Include="Content\bootstrap-responsive.css" />
     <Content Include="Content\bootstrap-responsive.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\custom.css" />
     <Content Include="Content\AutumnLeaves.png" />
+    <Content Include="Content\Images\aboutus_thumbnail.png" />
+    <Content Include="Content\Images\ceremony_thumbnail.png" />
     <Content Include="Content\Images\ck.jpg" />
     <Content Include="Content\Images\glyphicons-halflings-white.png" />
     <Content Include="Content\Images\glyphicons-halflings.png" />
+    <Content Include="Content\Images\proposal_thumbnail.png" />
     <Content Include="Content\Images\thumbnail_blue.png" />
     <Content Include="Content\Images\thumbnail_green.png" />
     <Content Include="Content\Images\thumbnail_red.png" />
+    <Content Include="Content\Images\TreeLandscape_Trim2_Names.png" />
+    <Content Include="Content\Images\TreeLandscape_Trim3_Names.png" />
     <Content Include="Content\site.css" />
-    <Content Include="Content\TreeLandscape.png" />
-    <Content Include="Content\TreeLandscape_Trim.png" />
+    <Content Include="Content\Images\TreeLandscape.png" />
+    <Content Include="Content\Images\TreeLandscape_Trim.png" />
+    <Content Include="Content\Images\TreeLandscape_Trim2.png" />
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap-carousel.js" />
@@ -165,6 +176,10 @@
     <Content Include="Views\Engagement\Index.cshtml" />
     <Content Include="Views\Registry\Index.cshtml" />
     <Content Include="Views\AboutUs\Index.cshtml" />
+    <Content Include="Views\RSVP\Index.cshtml" />
+    <Content Include="Views\Vendors\Index.cshtml" />
+    <Content Include="Views\Proposal\Index.cshtml" />
+    <Content Include="Views\Ceremony\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

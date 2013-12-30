@@ -1,7 +1,7 @@
 ﻿body {
     background-image: url('BackgroundTemplate.png');
-    background-color: #FFEBCA;
-    /*background-color: #D2ED67;*/
+    /*background-color: #d7d7d7;*/
+    background-color: #FCF8E8;
     margin-top: 60px;
 }
 
@@ -10,32 +10,48 @@ img
 	display: block;
     margin-bottom: 40px;
     margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .thumbnail {    
     margin-top: 20px;
     background-color: white;
-    box-shadow: 2px 3px 5px rgba(128, 128, 128, .3);
+    box-shadow: 2px 3px 8px rgba(128, 128, 128, .5);
     /*box-shadow: 10px, 10px, 5px, #888888;*/
-    /*border: 1px solid black;*/
+    border: 1px solid #888888;
 }
 
 h3.thumbnailTitle {
-    margin-top: -10px;
+    margin-top: -25px;
+    color: #f60;
 }
 
-.thumbnail > img {
+h3.paragraphTitle, .description {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.banner > img {
     display: block;
     max-width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/*This is not right, I need to center the txt properly*/
-.thumbnailTxt > h3 {
+.thumbnailTxt h3 {
     margin-left: auto;
     margin-right: auto;
     width: 8em;
+    display: block;
+    text-align: -webkit-center;
+}
+
+.thumbnailTxt p {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .navbar-inner {
@@ -69,4 +85,12 @@ h3.thumbnailTitle {
 }
 
 .banner {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    /*margin-top: 0px;
+    background-color: white;
+    box-shadow: 2px 3px 8px rgba(128, 128, 128, .5);
+    /*box-shadow: 10px, 10px, 5px, #888888;*/
+    /*border: 1px solid #888888*/
 }
