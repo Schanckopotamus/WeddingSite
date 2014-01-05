@@ -3,7 +3,7 @@
 }
 <html>
     <head>
-        <title>Mr. & Mrs. Schanckopotomus</title>
+        <title>Mr. & Mrs. Schanck</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
         <link href="@Url.Content("~/Content/bootstrap.css")" rel="stylesheet" type="text/css" />
@@ -18,11 +18,17 @@
                 <div class="container">
                     <ul class="nav">
                         <a class="brand" href="@Url.Action("Index", "Home")">Mr. & Mrs. Schanck</a>
-                        <li><a href="~/RSVP">RSVP</a></li>
+                        @*<li><a href="~/RSVP">RSVP</a></li>*@
                         <li>@Html.ActionLink("Registry", "Index", "Registry")</li>
                         <li><a href="#">Bridal Party</a></li>
                         <li><a href="#">Hotel Info</a></li>
-                        <li><a href="~/Vendors">Vendors</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown">Vendors<b class="caret"></b></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Sunflower Productions</a></li>
+                                <li><a href="#">Stone Creek</a></li>
+                            </ul>
+                        </li>                          
                     </ul>
                 </div>
             </div>
@@ -34,7 +40,7 @@
 
         <script src="@Url.Content("~/Scripts/jquery-1.9.1.min.js")"></script>
         <script src="@Url.Content("~/Scripts/bootstrap.min.js")"></script>
-@*      <script src="@Url.Content("~/Scripts/bootstrap-dropdown.js")"></script>
+        @*<script src="@Url.Content("~/Scripts/bootstrap-dropdown.js")"></script>
         <script src="@Url.Content("~/Scripts/bootstrap-tooltip.js")"></script>
         <script src="@Url.Content("~/Scripts/bootstrap-popover.js")"></script>*@
         @*<script src="@Url.Content("~/Scripts/bootstrap-carousel.js")"></script>*@
