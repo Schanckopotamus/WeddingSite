@@ -57,3 +57,4 @@ C:\Users\Mike\Desktop\Dev\WeddingSite\WeddingSite\bin\System.Web.WebPages.Deploy
 C:\Users\Mike\Desktop\Dev\WeddingSite\WeddingSite\bin\System.Web.WebPages.Razor.xml
 C:\Users\Mike\Desktop\Dev\WeddingSite\WeddingSite\obj\Debug\WeddingSite.dll
 C:\Users\Mike\Desktop\Dev\WeddingSite\WeddingSite\obj\Debug\WeddingSite.pdb
+C:\Users\Mike\Desktop\Dev\WeddingSite\WeddingSite\obj\Debug\WeddingSite.csprojResolveAssemblyReference.cache
