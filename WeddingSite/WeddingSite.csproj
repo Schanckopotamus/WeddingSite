@@ -122,6 +122,7 @@
     <Compile Include="Controllers\EngagementController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProposalController.cs" />
+    <Compile Include="Controllers\ReceptionController.cs" />
     <Compile Include="Controllers\RegistryController.cs" />
     <Compile Include="Controllers\RSVPController.cs" />
     <Compile Include="Controllers\VendorsController.cs" />
@@ -148,6 +149,7 @@
     <Content Include="Content\Images\glyphicons-halflings-white.png" />
     <Content Include="Content\Images\glyphicons-halflings.png" />
     <Content Include="Content\Images\proposal_thumbnail.png" />
+    <Content Include="Content\Images\StoneCreek300x200.png" />
     <Content Include="Content\Images\thumbnail_blue.png" />
     <Content Include="Content\Images\thumbnail_green.png" />
     <Content Include="Content\Images\thumbnail_red.png" />
@@ -180,6 +182,7 @@
     <Content Include="Views\Vendors\Index.cshtml" />
     <Content Include="Views\Proposal\Index.cshtml" />
     <Content Include="Views\Ceremony\Index.cshtml" />
+    <Content Include="Views\Reception\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
