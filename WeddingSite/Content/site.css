@@ -94,15 +94,11 @@ h3.paragraphTitle, .description {
     /*border: 1px solid #888888*/
 }
 
-/*.container .banner {    
-    margin-top: 60px;
-}*/
-
 p > a {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 /*This should be used in a div on every page to make sure the content is not under the navbar*/
 .page {
-    margin-top: 5%;
+    margin-top: 6%;
 }
